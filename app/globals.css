@@ -2,26 +2,77 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: lalezar;
+	src: url('C:\Users\Jon\Desktop\zz\clights.ttf')  format('truetype');
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+	font-family: IranSans;
+	src: url('C:\Users\Jon\Desktop\zz\clights.ttf')  format('truetype');
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.loader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
+  
+.spinner {
+	border: 3px solid rgba(0, 0, 0, 0.1);
+	border-left-color: #f97316;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	animation: spin 1s linear infinite;
+}
+  
+
+.lalezar{
+	font-family: lalezar;
+}
+
+.iran-sans{
+	font-family: IranSans;
+}
+
+.rtl-direction{
+	direction: rtl;
+}
+
+.open .hamburger-top{
+	transform: rotate(-45deg) translateY(3px) translate(-3px);
+}
+  
+.open .hamburger-middle{
+	display: none;
+}
+
+.open .hamburger-bottom{
+	transform: rotate(45deg) translateY(-2px) translate(-1px);
+}
+
+.open .hamburger-middle{
+    display: none;
+}
+
+.hamburger-button-toggle{
+    height: 0px ;
+    opacity: 0 ;
+    display: none;
+}
+
+.signin-form input {
+	outline: none;
+}
+
+@keyframes spin {
+	to {
+	  transform: rotate(360deg);
+	}
 }
