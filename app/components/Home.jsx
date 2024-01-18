@@ -21,7 +21,7 @@ const Home = () => {
 					<div className={`${lalezar.className} ${'flex flex-col md:w-6/12 w-11/12 justify-center md:items-start items-center md:me-10 me-0'}`}>
 						<div className='flex flex-col justify-center md:items-start items-center'>
 							<h1 className='lg:text-3xl md:text-2xl text-3xl'>مدرسه نمونه دولتی</h1>
-							<h1 className='lg:text-8xl md:text-7xl text-8xl text-orange-500'>مطهری</h1>
+							<h1 className='lg:text-8xl md:text-6xl text-7xl text-orange-500'>شهید مطهری</h1>
 						</div>
 						<span className='md:w-[40px] md:h-[8px] w-[200px] h-[3px] bg-slate-800 rounded-md my-3'></span>
 						<div className={`${Vazir.className} ${'xl:w-8/12 md:w-9/12 w-full text-start'}`}>
