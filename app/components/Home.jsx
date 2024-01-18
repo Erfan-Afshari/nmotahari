@@ -1,8 +1,7 @@
 'use client'
-
 import Image from 'next/image'
 import SchoolElement from '@/app/img/schoolElement.svg'
-import { lalezar } from '../utils/fonts'
+import { Vazir, lalezar } from '@/app/utils/fonts'
 import { HiOutlineBeaker } from 'react-icons/hi'
 import { PiPaintBrush } from 'react-icons/pi'
 import { MdOutlineSportsTennis } from 'react-icons/md'
@@ -21,16 +20,16 @@ const Home = () => {
 				<div className='flex md:flex-row flex-col-reverse items-center justify-between md:mt-12 pb-6 mt-8 text-left rtl-direction'>
 					<div className={`${lalezar.className} ${'flex flex-col md:w-6/12 w-11/12 justify-center md:items-start items-center md:me-10 me-0'}`}>
 						<div className='flex flex-col justify-center md:items-start items-center'>
-							<h1 className='lg:text-3xl md:text-2xl text-3xl lalezar'>مدرسه نمونه دولتی</h1>
-							<h1 className='lg:text-8xl md:text-7xl text-8xl lalezar text-orange-500'>مطهری</h1>
+							<h1 className='lg:text-3xl md:text-2xl text-3xl'>مدرسه نمونه دولتی</h1>
+							<h1 className='lg:text-8xl md:text-7xl text-8xl text-orange-500'>مطهری</h1>
 						</div>
 						<span className='md:w-[40px] md:h-[8px] w-[200px] h-[3px] bg-slate-800 rounded-md my-3'></span>
-						<div className='xl:w-8/12 md:w-9/12 w-full text-start iran-sans'>
+						<div className={`${Vazir.className} ${'xl:w-8/12 md:w-9/12 w-full text-start'}`}>
 							<p className='xl:text-lg lg:text-md md:text-sm text-sm md:text-start text-center'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
 								و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
 							</p>
 						</div>
-						<div className='iran-sans md:w-auto w-full mt-3'>
+						<div className={`${Vazir.className} ${'md:w-auto w-full mt-3'}`}>
 							<button className='hover:bg-orange-600 bg-orange-500 text-white md:rounded-xl rounded-full lg:px-8 lg:py-3 md:px-6 md:py-2 py-3 md:w-auto w-full xl:text-lg lg:text-md md:text-sm duration-150' onClick={scrollToSubjects}>بزن بریم !</button>
 						</div>
 					</div>
@@ -46,7 +45,7 @@ const Home = () => {
 					<h1 className='lalezar lg:text-5xl text-4xl me-2'>زمینه های</h1>
 					<h1 className='lalezar lg:text-5xl text-4xl text-orange-500'>فعالیت</h1>
 				</div>
-				<div class="lg:mt-6 md:mt-2 mx-auto grid md:grid-cols-12 grid-cols-1 gap-5 iran-sans w-full">
+				<div class={`${Vazir.className} ${"lg:mt-6 md:mt-2 mx-auto grid md:grid-cols-12 grid-cols-1 gap-5 w-full"}`}>
 					<div class="flex flex-col md:justify-start md:items-start items-center justify-center md:p-6 p-9 bg-white rounded-md w-full shadow-3xl hover:shadow-lg duration-300 col-span-6">
 						<HiOutlineBeaker className='text-5xl text-orange-500'/>
 						<p class="lg:text-lg text-xl lg:mt-4 md:text-sm mt-4 font-bold">علمی و پژوهشی</p>

@@ -1,5 +1,6 @@
 'use client'
 import Link from 'next/link';
+import { Vazir } from '@/app/utils/fonts';
 import { BiHomeAlt2 } from 'react-icons/bi'
 import { BsHeadset, BsPerson } from 'react-icons/bs'
 import { HiOutlineBeaker } from 'react-icons/hi'
@@ -18,7 +19,7 @@ const navbar = () => {
 	
   return (
 	<nav id='navbar' className='fixed top-0 w-full z-10 bg-white shadow-sm rounded-b-2xl'>
-		<div className='w-full rtl-direction py-4 iran-sans'>
+		<div className={`${Vazir.className} ${'w-full rtl-direction py-4'}`}>
 			<div className='container mx-auto'>
 				<div className='grid grid-cols-12'>
 					<div className='lg:flex hidden justify-center col-span-2'>

@@ -1,0 +1,44 @@
+[
+	{
+	  "id": "student-council",      
+	  "title": "انتخابات شورای دانش آموزی",
+	  "published_at": "2021-01-22 16:35:40",
+	  "thumbnail": "https://vectorloo.com/wp-content/uploads/edd/2021/04/%D9%88%DA%A9%D8%AA%D9%88%D8%B1-%D8%B4%D8%A8%DA%A9%D9%87-%D8%AE%D8%A8%D8%B1.png",
+	  "description": "رئیس، نایب رئیس، منشی و کمیته ها معلوم شدند"
+	},
+	{
+	  "id": "new-1",      
+	  "title": "خبر 2",
+	  "published_at": "2021-01-22 16:35:40",
+	  "thumbnail": "https://cdn.yjc.ir/files/fa/news/1399/9/22/13091125_502.jpg",
+	  "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است."
+	},
+	{
+	  "id": "new-2",      
+	  "title": "خبر 3",
+	  "published_at": "2021-01-22 16:35:40",
+	  "thumbnail": "https://vectorloo.com/wp-content/uploads/edd/2021/04/%D9%88%DA%A9%D8%AA%D9%88%D8%B1-%D8%B4%D8%A8%DA%A9%D9%87-%D8%AE%D8%A8%D8%B1.png",
+	  "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است."
+	},
+	{
+	  "id": "new-3",      
+	  "title": "خبر 4",
+	  "published_at": "2021-01-22 16:35:40",
+	  "thumbnail": "https://vectorloo.com/wp-content/uploads/edd/2021/04/%D9%88%DA%A9%D8%AA%D9%88%D8%B1-%D8%B4%D8%A8%DA%A9%D9%87-%D8%AE%D8%A8%D8%B1.png",
+	  "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است."
+	},
+	{
+	  "id": "new-4",      
+	  "title": "خبر 5",
+	  "published_at": "2021-01-22 16:35:40",
+	  "thumbnail": "https://vectorloo.com/wp-content/uploads/edd/2021/04/%D9%88%DA%A9%D8%AA%D9%88%D8%B1-%D8%B4%D8%A8%DA%A9%D9%87-%D8%AE%D8%A8%D8%B1.png",
+	  "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است."
+	},
+	{
+	  "id": "new-5",      
+	  "title": "خبر 6",
+	  "published_at": "2021-01-22 16:35:40",
+	  "thumbnail": "https://vectorloo.com/wp-content/uploads/edd/2021/04/%D9%88%DA%A9%D8%AA%D9%88%D8%B1-%D8%B4%D8%A8%DA%A9%D9%87-%D8%AE%D8%A8%D8%B1.png",
+	  "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است."
+	}
+  ]
