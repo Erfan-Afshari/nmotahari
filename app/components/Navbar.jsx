@@ -34,7 +34,7 @@ const navbar = () => {
 				<div className='grid grid-cols-12'>
 					<div className='lg:flex hidden justify-center col-span-2'>
 						{!cookie["user-profile"] ? <Link href='/signin'><button className='hover:text-orange-500 hover:bg-white text-white border-2 border-orange-500 rounded-lg bg-orange-500 px-5 py-2 duration-150'>ورود به سیستم</button></Link> 
-						: <Link href='/dashboard'><button className='hover:text-orange-500 hover:bg-white text-white border-2 border-orange-500 rounded-lg bg-orange-500 px-5 py-2 duration-150' onClick={logout}>خروج</button></Link>}
+						: <Link className='' href='/dashboard'><button className='hover:text-orange-500 hover:bg-white text-white border-2 border-orange-500 rounded-lg bg-orange-500 px-5 py-2 duration-150' onClick={logout}>خروج</button></Link>}
 					</div>
 					<div className='lg:flex hidden items-center justify-center col-span-8'>
 						<Link href='/'><button className='hover:text-orange-500 text-gray-700 px-4 py-1 duration-150'>خانه</button></Link>
