@@ -5,8 +5,10 @@ import { BiHomeAlt2 } from 'react-icons/bi'
 import { BsHeadset, BsPerson } from 'react-icons/bs'
 import { HiOutlineBeaker } from 'react-icons/hi'
 import { RiNewspaperLine } from 'react-icons/ri'
+import { useCookies } from "react-cookie"
 
 const navbar = () => {
+	const [cookie, setCookie] = useCookies(["user-profile"])
 	const toggleHamburgerMenu = (e) => {
 		let hamburgerButton = document.getElementById('menu-btn');
 		let mobileMenu = document.getElementById('mobile-menu');
@@ -16,6 +18,14 @@ const navbar = () => {
 		mobileMenu.classList.toggle('hamburger-button-toggle');
 		hamburgerButton.classList.toggle('open');
 	}
+
+	const logout = () => {
+		setCookie("user-profile", undefined, {
+			path: "/",
+			maxAge: -10,
+			sameSite: true,
+		});
+	}
 	
   return (
 	<nav id='navbar' className='fixed top-0 w-full z-10 bg-white shadow-sm rounded-b-2xl'>
@@ -23,7 +33,8 @@ const navbar = () => {
 			<div className='container mx-auto'>
 				<div className='grid grid-cols-12'>
 					<div className='lg:flex hidden justify-center col-span-2'>
-						<Link href='/signin'><button className='hover:text-orange-500 hover:bg-white text-white border-2 border-orange-500 rounded-lg bg-orange-500 px-5 py-2 duration-150'>ورود به سیستم</button></Link>
+						{!cookie["user-profile"] ? <Link href='/signin'><button className='hover:text-orange-500 hover:bg-white text-white border-2 border-orange-500 rounded-lg bg-orange-500 px-5 py-2 duration-150'>ورود به سیستم</button></Link> 
+						: <Link href='/dashboard'><button className='hover:text-orange-500 hover:bg-white text-white border-2 border-orange-500 rounded-lg bg-orange-500 px-5 py-2 duration-150' onClick={logout}>خروج</button></Link>}
 					</div>
 					<div className='lg:flex hidden items-center justify-center col-span-8'>
 						<Link href='/'><button className='hover:text-orange-500 text-gray-700 px-4 py-1 duration-150'>خانه</button></Link>
@@ -32,7 +43,10 @@ const navbar = () => {
 						<Link href='/aboutus'><button className='hover:text-orange-500 text-gray-700 px-4 py-1 duration-150'>درباره ما</button></Link>
 						<Link href='/contactus'><button className='hover:text-orange-500 text-gray-700 px-4 py-1 duration-150'>تماس باما</button></Link>
 					</div>
-					<div className='lg:flex hidden justify-center col-span-2'></div>
+					<div className='lg:flex hidden justify-center col-span-2'>
+					{cookie["user-profile"] ? <Link href='/dashboard'><button className='hover:text-orange-500 hover:bg-white text-white border-2 border-orange-500 rounded-lg bg-orange-500 px-8 py-2 duration-150'>داشبورد</button></Link> 
+						: <></>}
+					</div>
 				</div>
 			</div>
 

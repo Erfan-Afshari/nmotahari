@@ -7,15 +7,15 @@ import Eitalogo from '@/app/img/eitalogo.svg'
 
 const Footer = () => {
   return (
-	<section class="bg-indigo-950 rtl-direction mt-auto">	
-		<div class={`${Vazir.className} ${"container py-8 mx-auto"}`}>
+	<section className="bg-indigo-950 rtl-direction mt-auto">	
+		<div className={`${Vazir.className} ${"container py-8 mx-auto"}`}>
 			<div className='flex w-full md:justify-start justify-center md:gap-10 gap-0 text-md'>
 				<Link href='/' className='text-white md:text-md text-sm hover:text-orange-500 duration-150 md:px-6 px-4 py-2'>خانه</Link>
 				<Link href='/researches' className='text-white md:text-md text-sm hover:text-orange-500 duration-150 md:px-6 px-4 py-2'>پژوهش ها</Link>
 				<Link href='/aboutus' className='text-white md:text-md text-sm hover:text-orange-500 duration-150 md:px-6 px-4 py-2'>درباره ما</Link>
 				<Link href='/contactus' className='text-white md:text-md text-sm hover:text-orange-500 duration-150 md:px-6 px-4 py-2'>تماس با ما</Link>
 			</div>
-			<div class="grid grid-cols-12 md:gap-12">
+			<div className="grid grid-cols-12 md:gap-12">
 				<div className='flex flex-col md:col-span-8 col-span-12'>
 					<div className='mt-4'>
 						<h1 className={`${lalezar.className} ${'text-white text-2xl mb-2'}`}>درباره مدرسه</h1>

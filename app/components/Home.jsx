@@ -45,28 +45,28 @@ const Home = () => {
 					<h1 className='lalezar lg:text-5xl text-4xl me-2'>زمینه های</h1>
 					<h1 className='lalezar lg:text-5xl text-4xl text-orange-500'>فعالیت</h1>
 				</div>
-				<div class={`${Vazir.className} ${"lg:mt-6 md:mt-2 mx-auto grid md:grid-cols-12 grid-cols-1 gap-5 w-full"}`}>
-					<div class="flex flex-col md:justify-start md:items-start items-center justify-center md:p-6 p-9 bg-white rounded-md w-full shadow-3xl hover:shadow-lg duration-300 col-span-6">
+				<div className={`${Vazir.className} ${"lg:mt-6 md:mt-2 mx-auto grid md:grid-cols-12 grid-cols-1 gap-5 w-full"}`}>
+					<div className="flex flex-col md:justify-start md:items-start items-center justify-center md:p-6 p-9 bg-white rounded-md w-full shadow-3xl hover:shadow-lg duration-300 col-span-6">
 						<HiOutlineBeaker className='text-5xl text-orange-500'/>
-						<p class="lg:text-lg text-xl lg:mt-4 md:text-sm mt-4 font-bold">علمی و پژوهشی</p>
-						<p class="lg:text-sm md:text-xs text-sm text-Gray md:mt-1 font-semibold mt-3 md:text-start text-center me-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+						<p className="lg:text-lg text-xl lg:mt-4 md:text-sm mt-4 font-bold">علمی و پژوهشی</p>
+						<p className="lg:text-sm md:text-xs text-sm text-Gray md:mt-1 font-semibold mt-3 md:text-start text-center me-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
 						و با استفاده از طراحان گرافیک است</p>
 					</div>
-					<div class="flex flex-col md:justify-start md:items-start items-center justify-center lg:p-9 md:p-6 bg-white rounded-md p-9 w-full shadow-3xl hover:shadow-lg duration-300 col-span-6">
+					<div className="flex flex-col md:justify-start md:items-start items-center justify-center lg:p-9 md:p-6 bg-white rounded-md p-9 w-full shadow-3xl hover:shadow-lg duration-300 col-span-6">
 						<PiPaintBrush className='text-5xl text-blue-500'/>
-						<p class="lg:text-lg text-xl lg:mt-4 md:text-sm mt-4 font-bold">فرهنگی و هنری</p>
-						<p class="lg:text-sm md:text-xs text-sm text-Gray md:mt-1 font-semibold mt-3 md:text-start text-center">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+						<p className="lg:text-lg text-xl lg:mt-4 md:text-sm mt-4 font-bold">فرهنگی و هنری</p>
+						<p className="lg:text-sm md:text-xs text-sm text-Gray md:mt-1 font-semibold mt-3 md:text-start text-center">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
 						و با استفاده از طراحان گرافیک است</p>
 					</div>
-					<div class="flex flex-col md:justify-start md:items-start items-center justify-center lg:p-9 md:p-6 p-9 bg-white rounded-md w-full shadow-3xl hover:shadow-lg duration-300 col-span-6">
+					<div className="flex flex-col md:justify-start md:items-start items-center justify-center lg:p-9 md:p-6 p-9 bg-white rounded-md w-full shadow-3xl hover:shadow-lg duration-300 col-span-6">
 						<MdOutlineSportsTennis className='text-5xl text-green-500'/>
-						<p class="lg:text-lg text-xl lg:mt-4 md:text-sm mt-4 font-bold">ورزشی</p>
-						<p class="lg:text-sm md:text-xs text-sm text-Gray md:mt-1 font-semibold mt-3 md:text-start text-center">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است</p>
+						<p className="lg:text-lg text-xl lg:mt-4 md:text-sm mt-4 font-bold">ورزشی</p>
+						<p className="lg:text-sm md:text-xs text-sm text-Gray md:mt-1 font-semibold mt-3 md:text-start text-center">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است</p>
 					</div>
-					<div class="flex flex-col md:justify-start md:items-start items-center justify-center lg:p-9 md:p-6 bg-white rounded-md p-9 w-full shadow-3xl hover:shadow-lg duration-300 col-span-6">
+					<div className="flex flex-col md:justify-start md:items-start items-center justify-center lg:p-9 md:p-6 bg-white rounded-md p-9 w-full shadow-3xl hover:shadow-lg duration-300 col-span-6">
 						<BsPersonVideo3 className='text-5xl text-yellow-500'/>
-						<p class="lg:text-lg text-xl lg:mt-4 md:text-sm mt-4 font-bold">مشاوره</p>
-						<p class="lg:text-sm md:text-xs text-sm text-Gray md:mt-1 font-semibold mt-3 md:text-start text-center">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است</p>
+						<p className="lg:text-lg text-xl lg:mt-4 md:text-sm mt-4 font-bold">مشاوره</p>
+						<p className="lg:text-sm md:text-xs text-sm text-Gray md:mt-1 font-semibold mt-3 md:text-start text-center">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است</p>
 					</div>
 				</div>	
 			</div>

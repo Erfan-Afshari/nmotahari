@@ -1,6 +1,7 @@
 import SignIn from "@/app/components/SignIn"
+import { server } from "@/app/lib/server"
 
-const SignInPage = () => {
+const SignInPage = async () => {
   return (
 	<div>
 		<SignIn />

@@ -6,16 +6,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-	font-family: lalezar;
-	src: url('C:\Users\Jon\Desktop\zz\clights.ttf')  format('truetype');
-}
-
-@font-face {
-	font-family: IranSans;
-	src: url('C:\Users\Jon\Desktop\zz\clights.ttf')  format('truetype');
-}
-
 .loader {
 	display: flex;
 	justify-content: center;
@@ -30,15 +20,6 @@
 	width: 40px;
 	height: 40px;
 	animation: spin 1s linear infinite;
-}
-  
-
-.lalezar{
-	font-family: lalezar;
-}
-
-.iran-sans{
-	font-family: IranSans;
 }
 
 .rtl-direction{
