@@ -7,9 +7,6 @@ const Dashboard = () => {
 	const router = useRouter();
 	const [cookie, setCookie] = useCookies(["user-profile"])
 
-	// if (!cookie["user-profile"]) {
-	// 	router.push('/signin')
-	// }
 	if (router.isFallback) {
 		<h1>Data is loading</h1>;
 	}
