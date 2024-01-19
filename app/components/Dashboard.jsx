@@ -13,11 +13,11 @@ const Dashboard = () => {
 
   return (
 	<div>
-		{cookie["user-profile"] ?
+		{/* {cookie["user-profile"] ? */}
 			<div className="h-[30vh]">
-			  {/* <p className={`${Vazir.className} ${"text-center mt-12"}`}>خوش آمدی {cookie["user-profile"].name}</p> */}
+			  <p className={`${Vazir.className} ${"text-center mt-12"}`}>خوش آمدی {cookie["user-profile"].name}</p>
 			</div> 
-		: router.push('/signin')}
+		{/* : router.push('/signin')} */}
 	</div>
   )
 }
