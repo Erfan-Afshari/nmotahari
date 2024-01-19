@@ -1,11 +1,10 @@
-'use client'
 import Dashboard from '@/app/components/Dashboard';
 
 const page = () => {
   return (
-	<>
+	<div>
 		<Dashboard /> 
-	</>
+	</div>
   )
 }
 
