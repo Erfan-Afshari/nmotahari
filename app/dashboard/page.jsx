@@ -1,10 +1,11 @@
-import Dashboard from '@/app/components/Dashboard';
+// import Dashboard from '@/app/components/Dashboard';
 
 const page = () => {
   return (
-	<>
-		<Dashboard /> 
-	</>
+	<div>
+		{/* <Dashboard />  */}
+		hello
+	</div>
   )
 }
 
