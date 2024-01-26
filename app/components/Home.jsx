@@ -42,8 +42,8 @@ const Home = () => {
 		<section id='subjects' className='bg-BrightGraySupLight rtl-direction'>
 			<div className='relative flex flex-col container mx-auto w-full pb-32'>
 				<div className='flex w-full justify-center mb-8 pt-24'>
-					<h1 className='lalezar lg:text-5xl text-4xl me-2'>زمینه های</h1>
-					<h1 className='lalezar lg:text-5xl text-4xl text-orange-500'>فعالیت</h1>
+					<h1 className={`${lalezar.className} ${'lg:text-5xl text-4xl me-2'}`}>زمینه های</h1>
+					<h1 className={`${lalezar.className} ${'lg:text-5xl text-4xl text-orange-500'}`}>فعالیت</h1>
 				</div>
 				<div className={`${Vazir.className} ${"lg:mt-6 md:mt-2 mx-auto grid md:grid-cols-12 grid-cols-1 gap-5 w-full"}`}>
 					<div className="flex flex-col md:justify-start md:items-start items-center justify-center md:p-6 p-9 bg-white rounded-md w-full shadow-3xl hover:shadow-lg duration-300 col-span-6">
