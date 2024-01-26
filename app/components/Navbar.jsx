@@ -83,6 +83,11 @@ const navbar = () => {
 						<BsHeadset className='text-xl ms-[2px] me-2' />
 						<p className='mt-1'>تماس با ما</p>
 					</Link>
+
+					<div className='w-full p-2'>
+						{!cookie["user-profile"] ? <Link href='/signin'><button className='hover:text-orange-500 hover:bg-white text-white border-2 border-orange-500 rounded-lg bg-orange-500 px-5 py-2 w-full duration-150' onClick={toggleHamburgerMenu}>ورود به سیستم</button></Link> 
+						: <Link href='/'><button className='hover:text-orange-500 hover:bg-white text-white border-2 border-orange-500 rounded-lg bg-orange-500 px-5 py-2 w-full duration-150' onClick={() => {logout(); toggleHamburgerMenu();}}>خروج</button></Link>}
+					</div>
 				</div>
 			</div>
 		</div>
